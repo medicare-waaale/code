@@ -1,0 +1,96 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color:#3DAC78;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header2 {
+    background-color:#74C69D;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color:header {
+    background-color:#74C69D;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+};
+    padding: 50px;
+    text-align: center;
+}
+
+.cta {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.features {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 50px;
+}
+
+.feature img {
+    width: 150px;
+    height: 150px;
+}
+.li{
+    text-align: right;
+}
+.oval-text {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color:036666;
+    color: black;
+    margin-top: 20px;
+}
+.headline h5 {
+    text-align: right;
+}
+.headline img{
+    float: left;
+    margin: 20px;
+}
+.small-heading{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+/* Add a color to the active/current link */
+
