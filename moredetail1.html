@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookanappointment.css">
+    <title>Book your Appointment</title>
+</head>
+
+<body>
+    <div>
+        <div class="bg-image">
+            <img src="https://media.istockphoto.com/id/1312706504/photo/modern-hospital-building.webp?s=1024x1024&w=is&k=20&c=j7XqHjwQKT9-xeByphN1IT57WcR1ltFr9olUqZ0s9pY="
+                height="100%" width="100%" alt="hospital-image">
+        </div>
+        <div class="login">
+            <form action="/DONE" method="POST">
+                <h1>Book Online Appointment</h1>
+                <div>
+                    <br>
+                    <label>Date</label>
+                    <select name="date" class="adjust-box" class="hospital">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="0">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+
+                    </select>
+
+                </div>
+                <div>
+                    <br>
+                    <label>Month</label>
+                    <select name="month" class="adjust-box">
+                        <option value="January">January</option>
+                        <option value="Febuary">Febuary</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="Septenber">Septenber</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+
+                </div>
+                <div>
+                    <br>
+                    <input type="checkbox" name="confirmation" id="confirmation" value="yes" required>
+                    <label for="confirmation">"I hereby confirm that all the information i have filled is correct and if
+                        I face any concequences than I'm responsible for that!"</label>
+                    <br>
+
+                </div>
+                <div>
+                    <button class="button">Generate e-opd card</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
